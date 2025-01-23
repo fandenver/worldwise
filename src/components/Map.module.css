@@ -1,7 +1,7 @@
 .mapContainer {
   flex: 1;
   height: 100%;
-  background-color: var(--color-dark--2);
+  /*background-color: var(--color-dark--2);*/
   position: relative;
 }
 
@@ -35,4 +35,14 @@
 
 :global(.leaflet-popup-content-wrapper) {
   border-left: 5px solid var(--color-brand--2);
+}
+
+.block {
+  width: 58px;
+  height: 16px;
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
 }
